@@ -9,7 +9,7 @@ export const files: TFile[] = [
     bytes: 18740,
     createdAt: '2024-01-23T18:25:48.153Z',
     filename: 'dataset.xlsx',
-    filepath: 'https://api.openai.com/v1/files/file-CbxzlOiGvaG2uwhuAdKXdUpX',
+    filepath: 'https://bothub.chat/api/v1/openai/v1/files/file-CbxzlOiGvaG2uwhuAdKXdUpX',
     object: 'file',
     source: FileSources.openai,
     temp_file_id: '63214c34-2d2c-445f-9c60-5cf04c15607c',

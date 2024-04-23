@@ -17,8 +17,8 @@ describe('extractBaseURL', () => {
   });
 
   test('should return the correct base URL for official openai endpoints', () => {
-    const url = 'https://api.openai.com/v1/chat/completions';
-    expect(extractBaseURL(url)).toBe('https://api.openai.com/v1');
+    const url = 'https://bothub.chat/api/v1/openai/v1/chat/completions';
+    expect(extractBaseURL(url)).toBe('https://bothub.chat/api/v1/openai/v1');
   });
 
   test('should handle URLs with reverse proxy pattern correctly', () => {
